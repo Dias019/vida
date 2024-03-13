@@ -1,0 +1,46 @@
+button {
+    background-color: transparent;
+    border: none; /* Remover a borda do botão, se necessário */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Adicionando um efeito de destaque no hover */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2em; /* Tamanho da fonte - ajuste conforme necessário */
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%; /* Ajusta a largura máxima para que a imagem não ultrapasse a largura do modal */
+    height: auto; /* Garante que a proporção da imagem seja mantida ao ajustar a largura */
+    display: block; /* Remove espaçamento indesejado abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente no modal */
+    width: 50%;
+    height: 50%;
+}
+
+h2{
+    text-align: center;
+}
+
+#obs{
+    padding: 5%;
+    text-align: end;
+}
